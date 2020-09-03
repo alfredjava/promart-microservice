@@ -1,0 +1,12 @@
+# Spring properties
+spring:
+  application:
+    name: promart-service  # Identify this application
+
+# HTTP Server
+server:
+  port: 8090   # HTTP (Jersey) port
+logging:
+  config: /data/promart-microservice/properties/logback.xml
+
+ 
